@@ -22,6 +22,12 @@ public class Company {
     @Column(nullable = false)
     private String companyName;
 
+    @Column(nullable = false)
+    private String nation;
+
+    @Column(nullable = false)
+    private String region;
+
     @OneToMany(mappedBy = "company", cascade = CascadeType.REMOVE)
     @JsonManagedReference
     private List<Recruitment> recruitments = new ArrayList<>();

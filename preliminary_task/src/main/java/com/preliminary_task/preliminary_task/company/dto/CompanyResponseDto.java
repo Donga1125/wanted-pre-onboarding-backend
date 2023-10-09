@@ -15,5 +15,7 @@ public class CompanyResponseDto {
 
     private long companyId;
     private String companyName;
+    private String nation;
+    private String region;
     private List<Recruitment> recruitments = new ArrayList<>();
 }

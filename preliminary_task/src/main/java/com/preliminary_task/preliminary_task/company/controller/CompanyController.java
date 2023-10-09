@@ -33,6 +33,6 @@ public class CompanyController {
     @GetMapping("/{companyId}")
     public ResponseEntity getCompany (@PathVariable long companyId){
         Company findCompany = companyService.findCompany(companyId);
-        return new ResponseEntity<>(findCompany, HttpStatus.OK);
+        return new ResponseEntity<>(mapper.companyToResponseDto(findCompany), HttpStatus.OK);
     }
 }

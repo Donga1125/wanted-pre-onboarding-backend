@@ -13,7 +13,7 @@ import javax.validation.constraints.NotBlank;
 @Setter
 @NoArgsConstructor
 public class RecruitmentPostDto {
-    //@NotBlank(message = "companyId는 공백이 아니어야 합니다.")
+
     private long companyId;
     //@NotBlank(message = "position은 공백이 아니어야 합니다.")
     private String position;
@@ -24,10 +24,5 @@ public class RecruitmentPostDto {
     //@NotBlank(message = "technology은 공백이 아니어야 합니다.")
     private String technology;
 
-//    public Company getCompany(){
-//        Company company = new Company();
-//        company.setCompanyId(companyId);
-//
-//        return company;
-//    }
+
 }

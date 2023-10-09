@@ -3,16 +3,19 @@ package com.preliminary_task.preliminary_task.recruitment.dto;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.time.LocalDateTime;
+import java.util.List;
 
 @Getter
 @Setter
-public class RecruitmentResponseDto {
+public class RecruitmentDetailResponseDto {
     private long recruitmentId;
-    private long companyId;
+    private String companyName;
+    private String nation;
+    private String region;
     private String position;
     private int compensation;
     private String content;
     private String technology;
-    private LocalDateTime createdAt;
+    private List<Long> otherRecruitments;
+
 }
