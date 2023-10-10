@@ -43,13 +43,9 @@ API 서버를 작성한다. 이 서비스는 기업의 채용을 위한 웹서�
 - Test : 테스트 코드. 리펙토링 테스트 코드를 추가했을 때
 - Chore : 빌드 업무 수정, 패키지 매니저 수정
 
-### ERD 설계
-![ERD](file/image.png)
-
-
 ### API 명세
 
-https://documenter.getpostman.com/view/29074840/2s9YJgU1F6
+[https://documenter.getpostman.com/view/29074840/2s9YJgU1F6](https://documenter.getpostman.com/view/29312928/2s9YJhwzXR)
 
 ### 정리
 - 채용공고를 등록  
